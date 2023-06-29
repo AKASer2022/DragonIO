@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3039942655253961467}
   - component: {fileID: 7820443581940964976}
   - component: {fileID: 7370189883485763684}
+  - component: {fileID: -8017888957262979797}
   m_Layer: 0
   m_Name: Tail
   m_TagString: Player
@@ -123,3 +124,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-8017888957262979797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4866978913665431412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7605e1e2a1dcb8d4088c002fae9d09f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkedOwner: {fileID: 0}
+  followTransform: {fileID: 0}
+  delayTime: 0.1
+  distance: 0.3
+  moveStep: 10
